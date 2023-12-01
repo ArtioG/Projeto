@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+body {
+    font-family: 'Jacques Francois', serif;
+
+}
+
+.container {
+    width: 70%;
+    height: 90%;
+    padding: 0px;
+    background-color: rgba(205, 205, 205, 0.764);
+
+}
+
+.container-menu {
+    max-width: 78%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+header {
+    padding: 0px;
+    width: 101%;
+    margin-left: -10px;
+    margin-top: -10px;
+    background-color: #7a7a7a
+}
+
+.menu nav a {
+    color: #ffff;
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 18px;
+}
+
+.menu nav a {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 100px;
+    padding-right: 60px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.logo {
+    padding-left: 90px;
+
+}
+
+.sociais button i {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.sociais button {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(45deg, #5a5a5aa3, #5e5e5e);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.tela-login {
+    background-image: linear-gradient(white);
+    background-color: #EDEDED;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: black;
+}
+
+.tela-esqueci-minha-senha {
+    background-image: linear-gradient(white);
+    background-color: #EDEDED;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: black;
+}
+
+.tela-refinir-senha {
+    background-image: linear-gradient(white);
+    background-color: #EDEDED;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: black;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #000;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #000;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.app {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-position: center center;
+    justify-content: flex-end;
+}
+
+.planos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pass {
+    background-image: linear-gradient(white);
+    background-color: #d9d9d9;
+    padding: 80px;
+    border-radius: 15px;
+    color: black;
+}
+
+.premium {
+    background-image: linear-gradient(white);
+    background-color: #f7f7f7;
+    padding: 80px;
+    border-radius: 15px;
+    color: black;
+}
+
+.vip {
+    background-image: linear-gradient(white);
+    background-color: #000;
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+.vip button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.agendamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.agendar {
+    background-image: linear-gradient(white);
+    background-color: #EDEDED;
+    padding: 70px;
+    width: 170px;
+    height: 360px;
+    border-radius: 15px;
+    color: black;
+}
+
+.agendamento-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.barbearias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.barbearias-post1{
+    width: -10px;
+}
+
+.barbearias-button a{
+    background-image: linear-gradient(gray);
+    background-color: #000;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.barbearias-post2{
+    width: -10px;
+}
+
+.map-box{
+    align-items: center;
+    justify-content: flex-end;
+    width: 1470px;
+    height: 500px;
+}
+
+.map-box iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10;
+}
+
+.agendamento2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.elemento1{
+    background-image: linear-gradient(white);
+    background-color: #EDEDED;
+    width: 100px;
+    height: 250px;
+    padding: 80px;
+    border-radius: 15px;
+    color: black;
+}
+
+.elemento2{
+    background-image: linear-gradient(white);
+    background-color: #EDEDED;
+    padding: 80px;
+    width: 100px;
+    height: 250px;
+    border-radius: 15px;
+    color: black;
+}
+
+.elemento3{
+    background-image: linear-gradient(white);
+    background-color: #EDEDED;
+    padding: 80px;
+    width: 100px;
+    height: 250px;
+    border-radius: 15px;
+    color: black;
+}
+
+.elemento4{
+    background-image: linear-gradient(white);
+    background-color: #EDEDED;
+    padding: 80px;
+    width: 100px;
+    height: 250px;
+    border-radius: 15px;
+    color: black;
+}
